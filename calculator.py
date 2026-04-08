@@ -41,7 +41,7 @@ def hypotenuse(a, b):
 
 def logarithm(a, b):
     if a <= 0 or a == 1:
-        raise ValueError("Logarithm base must be positive and not equal to 1.")
+        raise ValueError("Invalid logarithm base.")
     if b <= 0:
-        raise ValueError("Logarithm argument must be positive.")
+        raise ValueError("Invalid logarithm argument.")
     return math.log(b, a)
