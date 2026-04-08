@@ -17,3 +17,14 @@ def div(a, b): b / a # raise ZeroDivisionError if a == 0
 def log(a, b): loga(b)# use math library + raise ValueError
 
 def exp(a, b): ab
+import math
+
+def add(a, b): a + b
+
+def subtract(a, b): a - b
+
+def multiply(a, b): a * b
+
+def logarithm(a, b): loga(b)# use math library/raise ValueError
+
+def exponent(a, b): ab
